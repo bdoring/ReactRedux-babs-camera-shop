@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="my-navbar">
       <Navbar className="border" color="faded" light  expand="md">
-          <NavbarBrand href="/">BAB'S CAMERA SHOP</NavbarBrand>
+          <NavbarBrand href="/">BABS' CAMERA SHOP</NavbarBrand>
           <NavbarToggler />
           <Collapse navbar>
             <Nav className="ml-auto" navbar>
@@ -14,7 +14,7 @@ const Header = () => {
                 <NavLink href="/checkout">Checkout</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/bdoring/phx-react-camera-shop">Github</NavLink>
+                <NavLink href="https://github.com/bdoring/ReactRedux-babs-camera-shop">Github</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
